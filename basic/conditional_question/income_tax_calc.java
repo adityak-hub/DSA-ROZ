@@ -1,4 +1,4 @@
-package basic.conditional_quest;
+package basic.conditional_question;
 import java.util.*;
 
 public class income_tax_calc {
