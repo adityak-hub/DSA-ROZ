@@ -1,7 +1,8 @@
 package basic.loops;
-import java.util.*;
 
-public class doWhile {
+import java.util.Scanner;
+
+public class doWhile2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -21,8 +22,4 @@ public class doWhile {
     }
     
 }
-
-
-
-
 
