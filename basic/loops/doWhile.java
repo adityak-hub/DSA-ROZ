@@ -1,12 +1,23 @@
 package basic.loops;
+import java.util.*;
 
 public class doWhile {
     public static void main(String[] args) {
-        int counter = 1;
+        Scanner sc = new Scanner(System.in);
+        
+        
         do{
-            System.out.println("Aditya kumar Chaudhary");
-            counter++;
-        }while(counter<=10);
+            System.out.println("Enter your number:");
+            int n = sc.nextInt();
+
+            if(n%10==0){
+                break;
+            }
+            System.out.println(n);
+            
+            
+        }while(true);
+        
     }
     
 }
