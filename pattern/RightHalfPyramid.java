@@ -1,7 +1,7 @@
 package pattern;
 import java.util.*;
 
-public class RightAngled_triangle {
+public class RightHalfPyramid {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your line number: ");
@@ -12,6 +12,9 @@ public class RightAngled_triangle {
             }
             System.out.println();
         }
+        
     }
-    
 }
+
+
+
