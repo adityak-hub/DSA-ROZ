@@ -11,7 +11,7 @@ public class Palindrome {
             reversed = reversed*10+last_digit;
             n/=10;
         }
-        return reversed;
+        return reversed; 
         
     }
     public static void main(String[] args) {
